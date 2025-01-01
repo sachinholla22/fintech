@@ -1,0 +1,199 @@
+.sectionPeronalLoan {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+.divForPeronalLoan {
+    position: relative;
+    height: 90%;
+    top: 5%;
+    width: 86%;
+    left: 7%;
+    background-color: rgb(254, 246, 254);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow-y: auto;
+}
+.personalLoanForm input{
+    background-color: rgb(235, 250, 252);
+}
+.personalLoanForm select {
+    background-color: rgb(235, 250, 252);
+}
+.personalLoanForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-group {
+    width: 48%;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+.custom-save-btn{
+    background-color: rgb(118, 173, 8);
+    position: relative;
+    width:105px;
+   
+    left:38%;
+}
+.custom-save-btn:hover{
+    background-color: green;
+}
+.custom-next-btn{
+    position: relative;
+    width:105px;
+    right:38%;
+    background-color: #ff7300;
+
+}
+.custom-next-btn:hover{
+    background-color: #ff4400;
+}
+.custom-step2save-btn{
+    background-color: rgb(118, 173, 8);
+    position: relative;
+    width:105px;
+    left:45%;
+    height:15%;
+}
+.custom-step2save-btn:hover{
+    background-color: green;
+}
+.custom-previouss-btn{
+    background-color: rgb(218, 224, 29);
+    position: relative;
+    color:black;
+    width:105px;
+    right:15%;
+    height:15%; 
+}
+.custom-previouss-btn:hover{
+    background-color: rgb(55, 224, 29);
+    color:black;
+}
+.custom-set2next-btn{
+    background-color:#ff7300;
+    position: relative;
+    width:105px;
+    right:30.3%;
+    height:15%; 
+}
+.custom-set2next-btn:hover{
+    background-color: #ff4400;
+}
+.custom-lstStepprevious-btn{
+    position: relative;
+    background-color: rgb(218, 224, 29);
+    color:black;
+    width:105px;
+    right:30.3%;
+    height:15%; 
+    top:200px;
+}
+.custom-lastSave-btn{
+    position: relative;
+    background-color:#ff7300;
+    width:105px;
+    right:30.3%;
+    height:15%; 
+    top:200px;
+}
+.custom-lastSave-btn:hover{
+    background-color: #ff4400;
+}
+.custom-lstStepprevious-btn:hover{
+    background-color: rgb(55, 224, 29);
+    color:black;
+}
+.repaymentReferencesForm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.loanFinancialDetailsForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.loanFinancialDetailsForm .form-group {
+    margin-bottom: 15px;
+}
+
+.loanFinancialDetailsForm .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.loanFinancialDetailsForm .form-group input[type="text"],
+.loanFinancialDetailsForm .form-group input[type="number"],
+.loanFinancialDetailsForm .form-group input[type="file"],
+.loanFinancialDetailsForm .form-group input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgb(235, 250, 252);
+}
+
+.loanFinancialDetailsForm .form-group input[type="file"] {
+    padding: 5px;
+}
+
+.loanFinancialDetailsForm .custom-previous-btn,
+.loanFinancialDetailsForm .custom-nexts-btn {
+    width: 48%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    grid-column: span 2;
+}
+#forsavedpersonal{
+    position: relative;
+    color:red;
+    top:52px;
+}
+
+.loanFinancialDetailsForm .custom-previous-btn {
+    margin-right: 4%;
+}
+
+.loanFinancialDetailsForm .custom-nexts-btn {
+    float: right;
+}

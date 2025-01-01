@@ -1,0 +1,102 @@
+.wholewidth {
+    position: relative;
+    width: 100%;
+    height: auto; /* Changed from fixed height to auto for better responsiveness */
+    background-color: rgb(241, 235, 220);
+    padding-bottom: 20px; /* Added padding to ensure content doesn't touch the bottom edge */
+}
+
+.boxContainer {
+    position: relative;
+    width: 60%; /* Adjusted width for better responsiveness */
+    max-width: 90%; /* Ensure the box doesn't exceed the screen width on smaller devices */
+    margin: 0 auto; /* Centered the box */
+    border-radius: 19px;
+    background-color: white;
+    padding: 20px; /* Added padding inside the box */
+}
+
+.navbar {
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center the h2 horizontally */
+    align-items: center; /* Center the h2 vertically */
+    width: 100%;
+    height: auto;
+    background-color: rgb(96, 98, 201);
+    border-radius: 19px;
+    padding: 15px 10px;
+}
+
+
+.navbar h2 {
+    text-shadow: 3px 3px 3px grey;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem; 
+    position:relative;
+    
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centered content */
+    margin-top: 20px;
+}
+
+.output p {
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+
+.output span {
+    font-size: 1.7rem;
+    font-weight: bolder;
+    color: rgb(231, 64, 3);
+}
+
+.forloan, .forROI, .forPeriod {
+    display: flex;
+    flex-direction: column; /* Stacked labels and inputs vertically */
+    margin-top: 20px;
+    width: 100%; /* Ensure full width inside the container */
+}
+
+.forloan label, .forROI label, .forPeriod label {
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: rgb(231, 64, 3);
+    margin-bottom: 10px;
+}
+
+.forloan input, .forROI input, .forPeriod input {
+    width: 100%; /* Full width of the container */
+}
+
+@media (max-width: 768px) {
+    .boxContainer {
+        width: 80%; /* Reduce width on smaller screens */
+    }
+
+    .navbar h2 {
+        font-size: 1.5rem;
+    }
+
+    .output span {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .boxContainer {
+        width: 95%; /* Further reduce width on very small screens */
+    }
+
+    .navbar h2 {
+        font-size: 1.2rem;
+    }
+
+    .output span {
+        font-size: 1.3rem;
+    }
+}

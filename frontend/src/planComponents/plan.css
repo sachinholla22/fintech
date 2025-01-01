@@ -1,0 +1,224 @@
+.carbox{
+    position:absolute;
+    top:0%;
+    width:99%;
+   
+    height:210px;
+    background-color: rgb(250, 222, 240);
+    border-radius: 15px;
+    z-index: 10;
+
+}
+
+.housebox{
+    position:absolute;
+    top:0%;
+    width:99%;
+   
+    height:210px;
+    background-color: rgb(250, 222, 240);
+    border-radius: 15px;
+    z-index: 10;
+
+}
+.retirementbox{
+    position:absolute;
+    top:0%;
+    width:99%;
+   
+    height:210px;
+    background-color: rgb(250, 222, 240);
+    border-radius: 15px;
+    z-index: 10;
+
+}
+.educationbox{
+    position:absolute;
+    top:0%;
+    width:99%;
+   
+    height:210px;
+    background-color: rgb(250, 222, 240);
+    border-radius: 15px;
+    z-index: 10;
+
+
+}
+
+
+.interestbox{
+    position:absolute;
+    top:0%;
+    width:99%;
+   
+    height:210px;
+    background-color: rgb(250, 222, 240);
+    border-radius: 15px;
+    z-index: 10;
+
+}
+
+#backinterest{
+    position:relative;
+    height:33px;
+    width:59px;
+    left:87%;
+    background-blend-mode: multiply;
+    mix-blend-mode: multiply;
+    opacity: 2;
+   
+   
+
+}
+#backinterest:hover{
+    cursor: pointer;
+}
+
+#backretirement{
+    position:relative;
+    height:33px;
+    width:59px;
+    left:87%;
+    background-blend-mode: multiply;
+    mix-blend-mode: multiply;
+    opacity: 2;
+   
+
+}
+
+#backretirement:hover{
+    cursor: pointer;
+}
+
+#backcar{
+    position:relative;
+    height:33px;
+    width:59px;
+    left:87%;
+   
+
+}
+
+#backcar:hover{
+    cursor: pointer;
+}
+
+#backhouse{
+    position:relative;
+    height:33px;
+    width:59px;
+    left:87%;
+    background-blend-mode: multiply;
+    mix-blend-mode: multiply;
+    opacity: 2;
+   
+
+}
+
+#backhouse:hover{
+    cursor: pointer;
+}
+
+#backeducation{
+    position:relative;
+    height:33px;
+    width:59px;
+    left:87%;
+    background-blend-mode: multiply;
+    mix-blend-mode: multiply;
+    opacity: 2;
+   
+   
+
+}
+
+#backeducation:hover{
+    cursor: pointer;
+}
+
+.reteirementContent{
+    position: relative;
+    align-items: center;
+}
+
+#forh3R{
+
+    position: relative;
+    left:7%;
+    color:orangered;
+    font-weight: bolder;
+
+}
+#forpR{
+    position:absolute;
+  
+    left:4.5%;
+   font-weight: bold;
+    font-size:14px;
+}
+
+#forh3C{
+    position: relative;
+    left:7%;
+    color:orangered;
+    font-weight: bolder;
+
+}
+
+#forpC{
+    position:absolute;
+  
+    left:4.5%;
+   font-weight: bold;
+    font-size:14px;
+}
+
+
+#forh3H{
+    position: relative;
+    left:7%;
+    color:orangered;
+    font-weight: bolder;
+
+}
+
+#forpH{
+    position:absolute;
+  
+    left:4.5%;
+   font-weight: bold;
+    font-size:14px;
+}
+
+
+#forh3I{
+    position: relative;
+    left:7%;
+    color:orangered;
+    font-weight: bolder;
+
+}
+
+#forpI{
+    position:absolute;
+  
+    left:4.5%;
+   font-weight: bold;
+    font-size:14px;
+}
+
+#forh3E{
+    position: relative;
+    left:7%;
+    color:orangered;
+    font-weight: bolder;
+
+}
+
+#forpE{
+    position:absolute;
+  
+    left:4.5%;
+   font-weight: bold;
+    font-size:14px;
+}

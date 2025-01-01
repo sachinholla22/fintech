@@ -1,0 +1,14 @@
+.tableSection{
+    position: relative;
+    top:11%;
+}
+.tableSection thead {
+    background-color: #b2a7a7; /* Light grey background */
+}
+
+.tableSection th {
+    color: #333; /* Darker text color for better contrast */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center the text */
+    padding: 10px; /* Add some padding */
+}

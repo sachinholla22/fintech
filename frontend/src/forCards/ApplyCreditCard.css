@@ -1,0 +1,92 @@
+/* Container for the ApplyCreditCard component */
+.apply-credit-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: rgb(229, 234, 220);
+}
+
+/* Section styling for the form within the ApplyCreditCard component */
+.apply-form-section {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 100%;
+    max-width: 600px; /* Adjust width for better spacing */
+}
+
+/* Styling for the header within the form section */
+.apply-form-section h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 28px;
+    text-align: center;
+}
+
+/* Styling for form groups to ensure proper spacing and alignment */
+.apply-form-section .form-group {
+    margin-bottom: 20px;
+}
+
+/* Styling for labels within form groups */
+.apply-form-section .form-group .form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+}
+
+/* Styling for form controls (inputs, textareas, etc.) */
+.apply-form-section .form-group .form-control {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+
+/* Styling for focused form controls */
+.apply-form-section .form-group .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+/* Styling for form text elements (e.g., help texts) */
+.apply-form-section .form-group .form-text {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+/* Styling for the submit button */
+.apply-form-section button[type="submit"] {
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff; /* Primary color */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Hover state for the submit button */
+.apply-form-section button[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Focus state for the submit button */
+.apply-form-section button[type="submit"]:focus {
+    outline: none;
+}
+#forbackBtncreditcard{
+    position: relative;
+    top:-500px;
+    left:-290px;
+}

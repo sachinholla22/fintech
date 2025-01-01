@@ -1,0 +1,19 @@
+.sectionEducationalLoan{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+.divForEducationalLoan{
+    position: relative;
+    height: 90%;
+    top: 5%;
+    width: 86%;
+    left: 7%;
+    background-color: rgb(254, 246, 254);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow-y: auto;
+}

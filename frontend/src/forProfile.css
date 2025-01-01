@@ -1,0 +1,65 @@
+
+#forprofile{
+    position:absolute;
+    width:32px;
+    height:27px;
+    background-color:rgb(96, 98, 201);;
+    border-radius: 7px;
+    left:95%;
+    top:5%;
+ cursor: pointer;
+}
+
+#forprofile h4{
+    position: relative;
+    left:13%;
+    top:3%;
+}
+#btnlogout{
+    position:absolute;
+    top:15%;
+    right:5%;
+    z-index: 2;
+}
+/*
+.forSlider{
+    position:absolute;
+    width:20%;
+    height:100%;
+    background-color: ;
+    right:0;
+    z-index: 1;
+
+}*/
+
+#for-profileicon{
+    background-color: rgb(12, 4, 4);
+    width: 77%;
+    height:5px;
+    left:15%;
+    position: relative;
+    top:15%;
+}
+#for-profileicon1{
+    background-color: rgb(10, 3, 3);
+    width:77%;
+    height:5px;
+    left:15%;
+    position: relative;
+    top:33%;
+}
+#for-profileicon2{
+    background-color: rgb(8, 2, 2);
+    width:77%;
+    height:5px;
+    left:15%;
+    position: relative;
+    top:50%;
+}
+/* Ensure specificity to override default Bootstrap styles */
+.offcanvas.custom-offcanvas {
+    width: 210px;
+    background-color: rgb(249, 237, 230); /* Adjust the width as needed */
+  }
+  
+

@@ -1,0 +1,59 @@
+/* PayUsingCredit.css */
+
+.credit-payment-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .credit-payment-form .form-label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .credit-payment-form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .credit-payment-form .btn-primary {
+    background-color: #007bff;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .credit-payment-form .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .credit-payment-message {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .credit-payment-message p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .credit-payment-message .success {
+    color: green;
+  }
+  
+  .credit-payment-message .error {
+    color: red;
+  }
+  
+  .credit-payment-loading {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #666;
+  }
+  

@@ -1,0 +1,30 @@
+
+
+.apply-css{
+    position: relative;
+    height: 100vh;
+    width:100%;
+
+   
+}
+
+.myDesign{
+    position: relative;
+    top:20%;
+
+    left:0%;
+    height:400px;
+    background-color: rgb(222, 218, 218);
+}
+
+.biggestContainer{
+    position: relative;
+    left:5%;
+    top:3%;
+}
+.forWholeSection{
+    position: relative;
+    background-color: rgb(231, 243, 254);
+    height: 100vh;
+    width:100%;
+}

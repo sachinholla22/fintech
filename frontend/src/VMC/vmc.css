@@ -1,0 +1,45 @@
+.section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.main-heading{
+    color:red;
+    font-size: 27px;
+}
+
+.underline{
+    height:4px;
+    width:4rem;
+    background-color: orangered;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+.bg-c-light{
+    background-color: rgb(239, 237, 237);
+}
+
+.underline2{
+    height:4px;
+    width:5rem;
+    background-color: rgb(248, 246, 245);
+    margin-top: 9px;
+    margin-bottom: 9px;
+
+}
+
+.bg-c-dark{
+    background-color: rgb(9, 6, 63);
+}
+
+.forall-links{
+    font-size: 19px;
+    text-decoration: none;
+
+}
+
+.rcb{
+    font-size: 20px;
+}

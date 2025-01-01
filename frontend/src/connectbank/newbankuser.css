@@ -1,0 +1,51 @@
+.mySection {
+    background-color: rgb(226, 246, 239);
+    padding: 20px;
+}
+
+.bigbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 100%;
+    max-width: 600px; /* Increased max-width for more space */
+}
+
+h2 {
+    color: #4a4a4a;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid #4a4a4a;
+    margin-bottom: 20px;
+}
+
+label {
+    color: #4a4a4a;
+}
+
+.gender-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-text {
+    color: #4a4a4a;
+    text-align: center;
+    margin-top: 10px;
+}
+.forErrorMsg{
+    color: red;
+    font-size:13px;
+}

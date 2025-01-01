@@ -1,0 +1,30 @@
+.for-box{
+    position:relative;
+    top:15%;
+    background-color:rgb(200, 249, 234);
+    width:45%;
+    left:27%;
+    height:60%;
+    box-shadow:3px 3px 4px grey,3px 3px 4px grey,-3px 3px 4px grey,3px -3px 4px grey
+}
+
+.inside-box{
+    position: relative;
+    width:70%;
+    left:15%;
+    top:10%;
+ 
+}
+.foralllabel{
+    position: relative;
+    left:-22%;
+}
+.foralllabel2{
+    position: relative;
+    left:-35%;
+}
+
+.inside-box h3{
+ color:orangered;
+    text-shadow: 2px 2px 9px rgb(214, 132, 31);
+}

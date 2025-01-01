@@ -1,0 +1,9 @@
+import './about.css'
+export default function About(){
+    return(
+        <div className="for-aboutcss text-center">
+        <h1> About Us</h1>
+        <p>The FinEdge Application is designed with a structured and user-friendly layout that ensures all essential features are easily accessible. At the core of the application is a secure user authentication process, allowing users to log in with their account number, username, and password to access a personalized dashboard. This dashboard serves as a central hub, providing an overview of key financial information, including account balances and recent transactions. Users can initiate money transfers to various accounts, both within the FinEdge system and to external banks, while also enjoying the convenience of tracking their transaction history. The application simplifies financial management by offering a bill payment feature, enabling users to pay utility bills and other recurring payments directly through the platform. Additionally, users can apply for credit or debit cards and request loans by submitting necessary details via straightforward forms, with the ability to monitor the status of their applications. For administrators, a dedicated admin panel facilitates the management of user applications, ensuring efficient oversight and support. To further enhance the user experience, the application includes comprehensive support resources, such as FAQs and contact options, to assist users with any questions or issues they may encounter. Overall, the FinEdge Application aims to provide a holistic financial management experience, bringing all necessary tools into one secure platform.</p>
+        </div>
+    )
+}

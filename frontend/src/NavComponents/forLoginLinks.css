@@ -1,0 +1,124 @@
+.boxForphnumber{
+    position:absolute;
+    width:420px;
+    height:330px;
+    background-color: rgb(252, 216, 223);
+    left:34%;
+    top:27%;
+    z-index: 10;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.2);
+  
+    
+}
+
+.forWholeBackground img{
+    position: relative;
+    width:21px;
+    height:21px;
+    left:64.5%;
+    top:27%;
+    z-index: 11;
+    cursor: pointer;
+   
+}
+.boxForphnumber  h3{
+    position: relative;
+    left:25%;
+    font-weight: bold;
+}
+.boxForphnumber  h4{
+    position: relative;
+    left:25%;
+    font-weight: bold;
+}
+#pee{
+    position: relative;
+    top:17%;
+    left:3%;
+    font-weight: bold;
+}
+
+.boxForphnumber nav{
+    position: relative;
+    width:100%;
+    height:11%;
+    background-color: orangered;
+   
+
+}
+.boxForphnumber  p {
+    position: relative;
+    top:3%;
+    left:1%;
+}
+
+.forWholeBackground{
+    position:fixed;
+    width:100%;
+    top:0;
+
+    height:100%;
+  
+   background-color: rgb(213, 209, 209);
+    z-index:5;
+}
+
+
+#pee1{
+    position: relative;
+    top:13%;
+    left:2%;
+}
+
+.myBackground{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    background-color: rgb(243, 231, 209);
+    z-index: 3;
+
+}
+.myBackground img{
+    position: relative;
+    width:21px;
+    height:25px;
+    left:77%;
+    top:26%;
+    z-index: 1;
+    cursor: pointer;
+   
+}
+.boxForPrivacy nav{
+    position: relative;
+    width:100%;
+    height:15%;
+    background-color: orangered;
+   
+}
+.boxForPrivacy{
+    position: relative;
+    width:60%;
+    height:55%;
+    background-color: beige;
+    left:20%;
+    top:21%;
+    box-shadow: 4px 4px 6px grey,-4px -4px 6px grey, -4px 4px 6px grey,4px -4px 6px grey;
+   
+}
+.boxForPrivacy h4{
+    position:relative;
+    font-weight: bold;
+    left:36%;
+    top:11%;
+}
+.boxForPrivacy p{
+  
+    position: relative;
+    left:2%;
+    
+}
+#pee1{
+    position:absolute;
+    top:23%;
+}

@@ -1,0 +1,351 @@
+.navbar.navbars-dashboard {
+    width: 81%;
+    background-color: rgb(96, 98, 201);
+    position: fixed; /* Changed from relative to fixed */
+    left: 19%;
+    top: 0;
+ 
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.navbar.navbars-dashboard h3{
+    position: relative;
+    left: 40%;
+    font-weight: 600;
+    color: rgb(77, 5, 69);
+}
+.navbar.navbars-dashboard-vertical {
+    width: 19%;
+    background-color: rgb(2, 11, 4);
+    position: fixed; /* Changed from relative to fixed */
+    left: 0%;
+    top: 0; /* Ensures it aligns with the top */
+    z-index: 1;
+    border-radius: 0;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar.navbars-dashboard-vertical h4{
+    color: aliceblue;
+    position:fixed;
+    top:5%;
+    left:4%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 1.7em;
+}
+
+.for-alltransaction{
+    position: relative;
+    height:49vh;
+    width:85%;
+    left:15%;
+    top:12%;
+    background-color: rgb(141, 250, 250);
+    overflow-x: hidden;
+    display: flex;
+    overflow-y: hidden;
+   
+ 
+}
+.for-alltransaction h2{
+    position: relative;
+    top:15%;
+    left:43%;
+    font-size: 1.9em;
+    font-weight: bolder;
+    color: rgb(13, 96, 14);
+}
+
+.forAccbalance{
+    position: relative;
+    width:35%;
+    height:25vh;
+  left:0%;
+    top:30%;
+}
+
+.fortransaction{
+    position: relative;
+    width:35%;
+    height:25vh;
+    top:30%;
+    left:5%;
+}
+#for-amount1{
+    position: relative;
+    width:80%;
+    height:5vh;
+   left:10%;
+   top:5px;
+color:rgb(28, 66, 20);
+    
+    background-color: rgb(232, 233, 241);
+}
+#for-amount2{
+    position: relative;
+    width:80%;
+    height:5vh;
+   left:10%;
+   top:5px;
+color:rgb(28, 66, 20);
+    
+    background-color: rgb(232, 233, 241);
+}
+
+.sections{
+    position: relative;
+    width:81%;
+    height:37vh;
+    top:12%;
+    left:19%;
+    background-color: rgb(252, 239, 228);
+}
+
+.containeri{
+    position: relative;
+    width:35%;
+    height:80%;
+    left:35%;
+    top:7%;
+    background-color: azure;
+}
+
+#card-header{
+    position: relative;
+    top:7%;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#heading{
+    position: relative;
+    top:7%;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#transactionheading{
+    position: relative;
+    top:7%;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#for-amount3{
+    position: relative;
+    width:80%;
+    height:8vh;
+   left:10%;
+   top:5px;
+color:rgb(28, 66, 20);
+    
+    background-color: rgb(232, 240, 241);
+}
+.for-footer{
+    position: relative;
+    background-color: rgb(69, 4, 57);
+    color: rgb(203, 226, 27);
+    width:100%;
+    height:33.5px;
+  top:9%;
+    text-align: center;
+    font-size: larger;
+    z-index: 1;
+}
+
+
+.forbalancecheck {
+   
+    position: relative;
+    left: 20%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    max-width: 60%;
+    background-color: rgb(245, 244, 242);
+    padding: 20px;
+    border: 2px solid rgb(28, 66, 20);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s ease-in-out; /* Smooth entrance effect */
+    z-index: 999 !important;
+}
+.forbalancecheck p{
+    position: relative;
+    left:47%;
+}
+.forbalancecheckers {
+    z-index: 999;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height:230px;
+    max-width: 500px;
+    background-color: rgb(245, 244, 242);
+    padding: 50px;
+    border: 2px solid rgb(28, 66, 20);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s ease-in-out; /* Smooth entrance effect */
+}
+.actasaboxes{
+    position: relative;
+    width:70%;
+    height:50px;
+    top:0%;
+    left:15.5%;
+}
+.actasaboxes p{
+    position: relative;
+    left:173px;
+    font-weight: bolder;
+}
+
+.balance-box {
+    position: relative;
+}
+
+.balance-box .back-button {
+    position: absolute;
+    cursor: pointer;
+    top: -33px;
+    right: -3px;
+    color: rgb(28, 66, 20);
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.balance-box .back-button:hover {
+    color: rgb(0, 128, 0); /* Change color on hover */
+}
+
+.balance-box h5 {
+    font-size: 1.2em;
+    color: rgb(28, 66, 20);
+    margin-bottom: 10px;
+}
+
+.balance-box h3 {
+    font-size: 2em;
+    color: rgb(0, 128, 0); /* Bright green for the amount */
+    font-weight: bold;
+    margin: 0;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 98;
+}
+
+.for-balancecheck{
+    z-index: 999 !important;
+    position: fixed;
+    left: 50%;
+    top: 43%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    height: 41%;
+    background-color: rgb(245, 244, 242);
+    padding: 20px;
+    border:2px solid rgb(28, 66, 20);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Modal box styling for payment success */
+.payment-success-modal {
+    z-index: 999 !important;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    height: auto;
+    max-height: 50%;
+    background-color: rgb(245, 244, 242);
+    padding: 20px;
+    border: 2px solid rgb(28, 66, 20);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    overflow-y: auto; /* Enables scrolling if content exceeds the height */
+}
+
+.payment-success-modal .decorative-div {
+    background-color: #dff0d8; /* Light green background */
+    color: #3c763d; /* Dark green text */
+    border: 1px solid #d6e9c6; /* Light green border */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px; /* Space below the decorative div */
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+.payment-success-modal .decorative-div::before {
+    content: "✓"; /* Checkmark icon */
+    font-size: 2em;
+    color: #3c763d;
+    display: block;
+    margin-bottom: 10px; /* Space between icon and text */
+}
+
+.payment-success-modal h5 {
+    font-size: 1.5em;
+    color: #4CAF50; /* Green color for success */
+    font-weight: bold;
+    margin: 10px 0; /* Add margin for spacing around the success message */
+}
+
+.payment-success-modal button {
+    background-color: #ff9800; /* Orange color for the back button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Add space above the button */
+}
+
+.payment-success-modal button:hover {
+    background-color: #e68900; /* Darker orange on hover */
+}
+
+
+.for-divv{
+    position: relative;
+    width:33%;
+    margin-top: -30%;
+    left:35%;
+    height:50vh;
+    background-color: antiquewhite;
+    z-index:999 !important;
+}
+
+.for-divv img{
+    width:15%;
+    margin-left:170%;
+  margin-top: 20%;
+}
+.for-divv h4{
+    position: relative;
+    top:0%;
+}
+
+
+

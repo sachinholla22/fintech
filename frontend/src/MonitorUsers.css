@@ -1,0 +1,52 @@
+.forbackgroundofthis {
+    background-color: #fcf9f9;
+    padding: 5px;
+    position: relative;
+    width: 100vw;  /* Full width of the viewport */
+    min-height: 100vh;  /* Ensures it covers the full height of the viewport */
+}
+
+.forTable-boxes {
+    width: 92%;  /* Adjust this value to set the width within the container */
+    max-width: 100%;  /* Prevents the table from exceeding the container width */
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: auto;  /* Adds horizontal scrolling if content exceeds width */
+}
+
+.table-heading {
+    text-align: center;
+    background-color: #ff0037;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: block;  /* Ensures it is treated as a block-level element */
+    width: 100%;  /* Ensures it takes full width of its container */
+}
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.user-table th, .user-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.user-table th {
+    background-color: #3992f2;
+    color: white;
+}
+
+.user-table tr {
+    background-color: #f2f2f2;
+}
+
+.user-table tr:hover {
+    background-color: #ddd;
+}

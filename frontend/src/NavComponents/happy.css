@@ -1,0 +1,96 @@
+.box1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(250, 243, 234);
+    top: 0;
+    overflow-x: hidden;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.goal {
+    width: 50%;
+    max-width: 500px;
+    position: relative;
+    text-align: left;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.littleBox {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: rgb(250, 222, 240);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+#text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#select {
+    width: 100%;
+    height: 50px;
+    outline: 0;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#btnselect {
+    width: 60%;
+    height: 43px;
+    border: 1px solid rgb(96, 98, 201);
+    background-color: rgb(143, 144, 238);
+    border-radius: 20px;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:20%;
+}
+
+.profile-images {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile-images img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-left: -10px; /* overlap effect */
+}
+
+.profile-images p {
+    font-size: 14px;
+    margin-left: 1%;
+    margin-top:3%;
+}
+
+#family {
+    width: 40%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 17px;
+    position: relative;
+    left:0%;
+    top:5%;
+}

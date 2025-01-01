@@ -1,0 +1,18 @@
+#foracceptapplicationloan{
+    position: relative;
+    left:37%;
+    top:37px;
+    width:90px;
+    background-color: rgb(28, 239, 16);
+}
+#forrejectapplicationloan{
+    position: relative;
+    left:49%;
+    width:90px;
+    background-color: rgb(239, 16, 16);
+}
+#forBackapplication{
+    position: relative;
+top:10px;
+
+}

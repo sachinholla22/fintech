@@ -1,0 +1,34 @@
+.for-boxes{
+    position: relative;
+    width:67%;
+    left:16.5%;
+    background-color: rgb(240, 248, 228);
+    top:17%;
+    box-shadow:3px 3px 4px grey,3px 3px 4px grey,-3px 3px 4px grey,3px -3px 4px grey;
+    height:70%;
+}
+.forAllBackgroundofthissection{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(224, 224, 223);
+}
+.inside-boxes{
+    position: relative;
+    top:5%;
+    width:67%;
+    left:16.5%;
+}
+.for-labels{
+    position: relative;
+    left:-39%;
+}
+#forsinglelabel{
+    position: relative;
+    left:-40.7%;
+}
+
+.inside-boxes  h3{
+    color:orangered;
+    text-shadow: 2px 2px 9px rgb(214, 132, 31);
+}

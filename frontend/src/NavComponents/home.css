@@ -1,0 +1,164 @@
+
+
+.carosal-image{
+    margin: 190px auto 0 auto;  
+      height:450px;
+    width:300px;
+    display:block;
+    border-radius:20px;
+    
+}
+.rightbox{
+    position:relative;
+    width:25%;
+    height:37vh;
+    border:2px solid black;
+    left:0%;
+    background-color: rgb(250, 245, 239);
+
+    display: flex;
+    flex-direction: column;
+   border-radius:20px;
+    justify-content: center;
+    box-shadow: 5px 5px 6px 3px grey;
+}
+
+#rightimg{
+    position: relative;
+    top:1%;
+    width:70%;
+    left:15%;
+    height:90vh;
+    border-radius: 30px;
+}
+
+#righttxt{
+    position:relative;
+    top:2%;
+    margin-left:20%
+}
+.leftbox{
+    position:relative;
+    width:25%;
+    height:37vh;
+    border:2px solid black;
+   left:50%;
+    background-color: rgb(250, 245, 239);
+    top:2%;
+    display: flex;
+    flex-direction: column;
+   border-radius:20px;
+    justify-content: center;
+    box-shadow: 5px 5px 6px 3px grey;
+}
+
+#forWelcome{
+    position: fixed;
+  
+    font-weight: bolder;
+    color: brown;
+
+}
+.welcome-container{
+    align-items: center;
+    display: flex;
+    position: fixed;
+    width:25%;
+    height:20vh;
+    margin-left:38%;
+    margin-top:3%;
+
+    justify-content: center;
+}
+#forUname{
+    position: fixed;
+   margin-top: 7%;
+   font-weight: bold;
+
+}
+#leftimg{
+    position:fixed;
+    top:23%;
+    left:10%;
+    width:80%;
+    height:27vh;
+    border-radius: 30px;
+   
+}
+
+.flex-container {
+    display: flex;
+ /* Space between the boxes */
+    align-items: center; /* Align items vertically */
+    width: 100%; /* Ensure the container takes up the full width */
+    padding: 20px; /* Optional padding */
+}
+
+.box{
+    position:absolute;
+    width:82%;
+    height:43%;
+    margin-left:9%;
+    top:33%;
+}
+
+html, body, #root {
+    height: 100%;
+  }
+
+
+.forBackground {
+    background-color: rgb(247, 234, 218); /* Set the background color */
+    height: 119%;       
+    overflow: hidden;     
+    margin-top: 0;
+}
+
+
+.extremeright img{
+ width:15%;
+ height:50%;
+ position:relative;
+ left:2%;
+ border-radius: 15px;
+ box-shadow: 3px 3px 4px 4px grey;
+}
+
+.paperlessimg img{
+    width:170px;
+ height:300px;
+ position:absolute;
+ top:73%;
+ right:2%;
+ border-radius: 15px;
+ box-shadow: 3px 3px 4px 4px grey;
+ 
+}
+#circle{
+    position:absolute;
+    width:33px;
+    height:33px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    left:55%;
+    top:4%;
+cursor: pointer;
+  }
+
+  #darkmode{
+    position: inherit;
+    width:13px;
+    background-color: black;
+    height:19px;
+    top:25%;
+    left:17%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+   
+  }
+.for-welcoming{
+    position: relative;
+    top:10%;
+    left:30%;
+}
+
