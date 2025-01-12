@@ -1,0 +1,57 @@
+version: "3"
+
+services: 
+    frontend:
+        build:
+          context: ./frontend/
+        image: banking-frontend  
+        ports:
+          - "3000:3000"
+        volumes:
+          - myvolume:/frontend
+        depends_on:
+            - backend
+        networks:
+            - myNet    
+    db:
+      image: mysql:8.0
+      ports:
+        - "3307:3306"
+      command: --binary-mode=1
+      environment:
+            - MYSQL_ROOT_PASSWORD=sachinholla2001
+            - MYSQL_DATABASE=db_fintech
+      volumes:
+          - myvolume:/var/lib/mysql
+          - ./for-mysql/db_fintech_dump.sql:/docker-entrypoint-initdb.d/db_fintech_dump.sql
+
+      networks:
+          - myNet
+    
+    backend:
+        build: ./backend/
+        image: banking-backend
+        ports:
+          - "3003:3003"
+        volumes:
+            - myvolume:/backend
+        networks:
+            - myNet
+        environment:
+              - DB_HOST=db
+              - DB_PORT=3307
+              - DB_USER=root
+              - DB_PASSWORD=sachinholla2001
+              - DB_NAME=db_fintech
+
+        depends_on:
+              - db
+ 
+
+volumes:
+    myvolume:
+        external: true
+
+networks:
+    myNet:
+        external: true
