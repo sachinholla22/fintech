@@ -1,29 +1,28 @@
 const mysql = require('mysql2');
 
 // Function to create the database connection with retry logic
-function createDbConnection() {
+function connectToDatabase() {
     const db = mysql.createConnection({
-        host: "db",  // Docker service name
         user: "root",
+        host: "db", // Docker Compose service name for MySQL
         password: "sachinholla2001",
         database: "db_fintech"
     });
 
     db.connect((err) => {
         if (err) {
-            console.log("Error connecting to the database, retrying in 5 seconds...", err);
-            // Retry connection after 5 seconds
-            setTimeout(createDbConnection, 5000);
+            console.log("Cannot connect to the database:", err);
+            setTimeout(connectToDatabase, 5000); // Retry after 5 seconds
         } else {
-            console.log("Connected to the database successfully!");
+            console.log("Database connected successfully");
         }
     });
 
     return db;
 }
 
-// Create initial connection
-let dbConnection = createDbConnection();
+// Initialize database connection
+const db = connectToDatabase();
 
 // Export the connection object
-module.exports = dbConnection;
+module.exports = db;
