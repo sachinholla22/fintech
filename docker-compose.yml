@@ -12,13 +12,7 @@ services:
       - myNet
     volumes:
       - ./for-mysql/db_fintech_dump.sql:/docker-entrypoint-initdb.d/db_fintech_dump.sql
-    healthcheck:
-      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${MYSQL_ROOT_PASSWORD}","--skip-host-cache"]
-      interval: 30s
-      retries: 5
-      start_period: 10s
-      timeout: 10s
-    command: --binary-mode=1   
+   
 
   frontend:
     build:
